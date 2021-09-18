@@ -10,22 +10,40 @@
 <body>
     <header>
         <nav class="navbar">
-            <img src="./images/default-logo.png" alt="LOGO" class="logo">
-            <img src="" alt="MENU" class="menu">
+            <img src="./images/default-logo.png" alt="logo" class="logo">
+            <img src="" alt="menu icon" class="menu">
         </nav>
         <div class="banner">
-            <div class="banner-text">
-                <h3>HOUSE REPAIR</h3>
-                <h1>SERVICES</h1>
-                <div></div>
+            <div class="banner-container">
+                <div class="banner-text">
+                    <h3>HOUSE REPAIR</h3>
+                    <h1>SERVICES</h1>
+                    <div class="hr"></div>
+                </div>
+                <div class="banner-icons">
+                    <figure>
+                        <img src="./images/paint-brush.svg" alt="paint brush icon">
+                        <figcaption>PAINTING</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/cleaning-bucket.svg" alt="cleaning bucket icon">
+                        <figcaption>CLEANING</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/tap.svg" alt="tap icon">
+                        <figcaption>PLUMBING</figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
     </header>
     <section class="help-section">
-        <h5>Our services</h5>
-        <h2>How Can We Help You?</h2>
-        <p>We specialize in making routine maintenance and emergency repair experiences worry free. Give us a call today to learn how simple our process truly is!</p>
-        <button class="btn">BOOK NOW</button>
+        <div>
+            <h5>Our services</h5>
+            <h2>How Can We Help You?</h2>
+            <p>We specialize in making routine maintenance and emergency repair experiences worry free. Give us a call today to learn how simple our process truly is!</p>
+            <button class="btn">BOOK NOW</button>
+        </div>
     </section>
     <section class="contact-container">
         <div class="holder">
@@ -51,28 +69,33 @@
     <section class="services-container">
         <div class="services">
             <h2>Our Services</h2>
-            <div>
-                <img src="./images/painting.svg" alt="painting icon">
-                <h4>Painting</h4>
-                <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
-            </div>
-            <div>
-                <img src="./images/electric.svg" alt="electric icon">
-                <h4>Electrical</h4>
-                <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
-            </div>
-            <div>
-                <img src="./images/repair.svg" alt="repair icon">
-                <h4>Repair</h4>
-                <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
-            </div>
+            <div class="services-list">
+                <div>
+                    <img src="./images/painting.svg" alt="painting icon">
+                    <h4>Painting</h4>
+                    <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
+                </div>
+                <div>
+                    <img src="./images/electric.svg" alt="electric icon">
+                    <h4>Electrical</h4>
+                    <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
+                </div>
+                <div>
+                    <img src="./images/repair.svg" alt="repair icon">
+                    <h4>Repair</h4>
+                    <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
+                </div>
+           </div>
         </div>
     </section>
     <section class="gallery-container">
         <div class="gallery-text">
             <h5>ABOUT US</h5>
-            <h4>Plumbing</h4>
-            <h3>Services</h3>
+            <div>
+                <h4>Plumbing</h4>
+                <h3>Services</h3>
+            </div>
+           
         </div>
         <div class="gallery-images">
             <div class="pics1"> </div>
@@ -84,8 +107,10 @@
     <footer>
        <h1>Get your 'TO DO' list completed by a real professional!</h1> 
        <p>We’re on a mission to help build long-lasting brands that shape and define an entire industry through thoughtful design.</p>
-       <button class="btn">BOOK NOW</button>
-       <button class="btn-transparent">call us</button>
+       <div class="footer-btn">
+        <button class="btn">BOOK NOW</button>
+        <button class="btn-transparent">call us</button>
+       </div>
     </footer>
     
 

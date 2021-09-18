@@ -15,6 +15,10 @@
     width: 50px;
     height: 25px;
 }
+.banner-container{
+    display: flex;
+    flex-direction: column;
+}
 .banner{
     width: 100%;
     height: 50vh;
@@ -45,9 +49,12 @@
     font-weight: bolder;
     font-size: 3rem; 
 }
-.banner-text div{
+.hr{
     border-bottom: 10px solid #fff;
     margin-top: 2rem;
+}
+.banner-icons{
+    display: none;
 }
 .help-section{
     display: flex;
@@ -55,7 +62,7 @@
     justify-content: center;
     align-content: center;
     text-align: center;
-    background-color:#fff;
+    background-color:#f2f2f2;
 }
 .help-section h5{
     letter-spacing: 2px;
@@ -344,12 +351,102 @@ footer p{
     color:black;
     width: 150px;
 }
+.footer-btn{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
 /* Media query for tab */
 
 @media only screen and (min-width: 768px) {
+.banner{
+    justify-content: center;
+    align-items:flex-start;
+}
+
+
+.banner-text h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+}
+.banner-icons {
+    display: flex;
+    /* margin: 0rem 4rem 2rem 2rem; */
+}
+.banner-icons figure{
+    margin: 0rem 1rem;
+}
+
+figure img, figcaption{
+    margin: 1rem;
+}
+.help-section div{
+    margin: 5rem;
+}
+
+.plumber2, .plumber {
+    width: 100%;
+    height: 40vh;
+}
+.holder{
+    text-align: left;
+}
+.holder h3, h4{
+    margin-left: 3rem;
+}
+.holder p{
+    padding: 3rem;
+}
+
+.quality{
+    flex-direction: row;
+}
+.quality img{
+    margin-bottom: 0;
+}
+.quality-caption{
+    margin:0;
+}
+.quality-caption h2 {
+    padding-right:  10rem ;
+}
+
+.quality-caption div {
+    width: 70%;
+}
+.quality img {
+    width: 100%;
+}
+.services-list{
+    display: flex;
+    flex-direction: row;
+}
+.services-list div{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+}
+.gallery-text div{
+    display: inline;
+}
+footer{
+    margin-top: 5rem;  
+}
+
+footer p{
+    padding: 1rem 8rem;
+}
+
+.footer-btn{
+    display: inline;
+    margin-top: 2rem;
+}
 
 }
 
