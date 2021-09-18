@@ -364,6 +364,14 @@ footer p{
 .banner{
     justify-content: center;
     align-items:flex-start;
+    padding: 2rem;
+}
+.banner-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.hr{
+    width: 90%;
 }
 
 
