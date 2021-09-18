@@ -214,6 +214,8 @@
     margin-bottom: 2rem;
     border-radius: 50%;
     border: 1px solid #e71a23;
+    background-color: #e71a23;
+    padding: 1rem;
 }
 .services h4{
     font-size: 1.5rem;
