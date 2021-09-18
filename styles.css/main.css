@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;  
+}
+.logo{
+    margin-left:1.5rem;
+    width: 50px;
+    height: 25px;
+}
+.banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/nice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    flex-direction: column;
+    color: #fff;
+    letter-spacing: 2px;
+   
+}
+.banner-text{
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #f1ebeb;
+    text-align: left;  
+    margin: 2rem; 
+}
+.banner-text h3{
+    font-size: 2rem;
+      
+}
+.banner-text h1{
+    font-weight: bolder;
+    font-size: 3rem; 
+}
+.banner-text div{
+    border-bottom: 10px solid #fff;
+    margin-top: 2rem;
+}
+.help-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color:#fff;
+}
+.help-section h5{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin: 1rem;
+    color: #cfcccc;
+}
+
+.help-section h2{
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.help-section p{
+    letter-spacing: 1px;
+    font-weight: lighter;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn{
+    background-color: #e71a23;
+    border-width: 1px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-style: solid;
+    margin: 20px auto 60px;
+    padding: 16px 36px;
+    text-decoration: none;
+    border: 0 none transparent;
+    outline-width: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.contact-container{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 1rem;
+}
+.plumber{
+    width: 100%;
+    height: 45vh;
+    background: url(../images/billionphotos1882993.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    margin-bottom: 2rem;
+}
+.plumber2{
+    width: 100%;
+    height: 45vh;
+    background: url(../images/billionphotos1883011.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    margin-bottom: 2rem;
+}
+
+.holder{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.holder p{
+    letter-spacing: 1px;
+    font-weight: lighter;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.holder h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.holder h4{
+    color: #e71a23;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.quality{
+    background-image: url(../images/g.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    background-color: #cfcccc;
+    text-align: left;
+    
+}
+.quality img{
+    width:80%;
+    margin-bottom: 150px;
+}
+.quality-caption{
+    margin: 2rem;
+}
+
+.quality-caption h2{
+    color: blue;
+    font-size: 2.9rem;
+    margin-bottom: 2rem;
+}
+.quality-caption div{
+    border-bottom: 10px solid #e71a23;
+    margin: 2rem 0;
+}
+
+.quality-caption p{
+    letter-spacing: 1px;
+    font-weight: lighter;
+    line-height: 1.5rem;
+    text-align: left;
+    margin-bottom: 1rem;  
+}
+.services-container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.services h2{
+    margin: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.services img{
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    border: 1px solid #e71a23;
+}
+.services h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.services p{
+    font-style: italic;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.gallery-container{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+   
+}
+.gallery-text{
+    margin: 2rem 3rem;
+    color: #fff;
+}
+.gallery-text h5{
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    
+}
+.gallery-text h4{
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.gallery-text h3{
+    letter-spacing: 1px;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: -1rem;
+}
+.gallery-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+ 
+}
+.gallery-images div{
+    width: 80%;
+    height: 50vh; 
+    margin: 1rem 3rem; 
+} 
+.pics1{
+background-image:url(../images/billionphotos1882951.jpg);
+background-size: cover;
+width: 100%;
+background-repeat: no-repeat;
+background-position: 50%;
+}
+
+.pics2{
+background-image:url(../images/rg.jpg);
+background-size: cover;
+background-size: cover;
+width: 100%;
+background-repeat: no-repeat;
+background-position: 50%;
+margin-bottom: 2rem;
+}
+
+.pics3{
+background-image:url(../images/billionphotos1882993.jpg) ;
+background-size: cover;
+width: 100%;
+background-repeat: no-repeat;
+background-position: 50%;
+margin-bottom: 2rem;
+}
+
+.pics4{
+background-image:url(../images/frg.jpg) ;
+background-size: cover;
+width: 100%;
+background-repeat: no-repeat;
+background-position: 50%;
+margin-bottom: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+footer h1{
+    margin: 1rem;
+}
+footer p{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 1rem;
+}
+.btn-transparent{
+    background-color:transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: lighter;
+    margin: 0px auto 60px;
+    padding: 16px 36px;
+    text-decoration: none;
+    border: 1px solid black;
+    outline-width: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    color:black;
+    width: 150px;
+}
+
+
+
+/* Media query for tab */
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/* Media query for Large Screen */
+@media only screen and (min-width: 1024px) {
+
+
+}
+
+
