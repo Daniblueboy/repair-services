@@ -361,6 +361,8 @@ footer p{
 /* Media query for tab */
 
 @media only screen and (min-width: 768px) {
+
+
 .banner{
     justify-content: center;
     align-items:flex-start;
@@ -401,9 +403,7 @@ figure img, figcaption{
 .holder{
     text-align: left;
 }
-.holder h3, h4{
-    margin-left: 3rem;
-}
+
 .holder p{
     padding: 3rem;
 }
