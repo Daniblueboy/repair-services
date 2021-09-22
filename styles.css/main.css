@@ -358,6 +358,29 @@ footer p{
 /* Media query for tab */
 
 @media only screen and (min-width: 768px) {
+    .banner{
+        justify-content: center;
+        align-items:flex-start;
+    }
+    .banner-text h3 {
+        font-size: 1.9rem;
+    }
+    
+    .banner-text h1 {
+        font-weight: bolder;
+        font-size: 4rem;
+    }
+    .banner-icons {
+        display: flex;
+        /* margin: 0rem 4rem 2rem 2rem; */
+    }
+    .banner-icons figure{
+        margin: 0rem 1rem;
+    }
+    
+    figure img, figcaption{
+        margin: 1rem;
+    }
 .help-section{
     padding: 69px;
 }
@@ -437,6 +460,28 @@ footer p{
 
 /* Media query for Large Screen */
 @media only screen and (min-width: 1024px) {
+    .banner-text h3 {
+        font-size: 3.5rem;
+    }
+    .banner-text h1 {
+        font-size: 7rem;
+    }
+    .hr {
+        margin-top: 30px;
+        width: 55%;
+    }
+    .banner {
+        background-position: initial;
+        justify-content: initial;
+        align-items: initial;
+    }
+    .banner-container {
+        padding-bottom: 200px;
+        margin-left: 35px;
+        margin-top: 125px;
+    }
+    
+
     .help-section {
         padding-top: 158px;
     }
