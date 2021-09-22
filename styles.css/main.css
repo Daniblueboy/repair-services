@@ -293,20 +293,17 @@ section{
     justify-content: center;
     flex-direction: column;
     flex: .5;
-    
 }
 
-.gallery-images div{
-    align-self: center;
-    
-    margin-bottom: 2px;
+
+.pics{
+    margin: 5px;
+    width: 250px;
 }
 
-.pics1{
-    background-image: url(../images/billionphotos1882951.jpg);
+.pics img{
     width: 100%;
-    height: 50vh;
-    background-repeat: no-repeat;
+    height: auto;
 }
 /* gallery end */
 footer{
@@ -424,6 +421,22 @@ footer p{
 .services-list h4 {
     margin-bottom: 22px;
 }
+.gallery-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pics{
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    
+}
+
+.pics img{
+    width: 100%;
+    height: 200px;
+}
 
 .footer-btn{
     display: inline;
@@ -510,21 +523,7 @@ footer p{
 .gallery-container{
     flex-direction: row;
 }
-.gallery-images{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
-.pics{
-    margin: 5px;
-    width: 250px;
-}
-
-.pics img{
-    width: 100%;
-    height: auto;
-}
 .gallery-text{
     text-align: inherit;
 }
@@ -544,5 +543,9 @@ footer p{
 }
 .gallery-images{
     margin-right: 30px;
+}
+.pics{
+    margin: 5px;
+    width: 280px;
 }
 }
